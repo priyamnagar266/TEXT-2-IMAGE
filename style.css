@@ -1,0 +1,157 @@
+body {
+  background-color: #0d0d0d; /* Dark background */
+  color: #e0e0e0; /* Light grey text */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #1a1a1a; /* Darker container */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 90%;
+  max-width: 500px; /* Maximum width for the container */
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #76ff03; /* Bright green */
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #bbdefb; /* Light blue */
+}
+
+input {
+  width: 100%; /* Full width */
+  height: 40px;
+  border-radius: 20px;
+  background: #323232; /* Dark input background */
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  border: 1px solid #424242; /* Slightly lighter border */
+  transition: border-color 0.3s ease;
+  margin-top: 10px; /* Space above input */
+}
+
+input:focus {
+  border-color: #76ff03; /* Bright green border on focus */
+  outline: none;
+}
+
+#btn {
+  padding: 0.6em 2em;
+  border: none;
+  color: white;
+  background: #1c1c1c; /* Dark button background */
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px; /* Space above button */
+  transition: background 0.3s ease, transform 0.2s ease; /* Transition effects */
+}
+
+#btn:hover {
+  background: #424242; /* Slightly lighter on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+#image-container {
+  margin-top: 20px; /* Space between button and image */
+  position: relative; /* To position download button below image */
+}
+
+img {
+  width: 100%;
+  max-width: 400px; /* Max width for image */
+  border-radius: 10px;
+  margin-top: 20px; /* Space above image */
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+#downloadBtn {
+  color: #76ff03; /* Bright green for download link */
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px; /* Space above download link */
+  transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+#downloadBtn:hover {
+  color: #aaff33; /* Brighter green on hover */
+}
+
+body {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light grey text */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.container {
+  background-color: #1e1e1e; /* Darker container */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 90%;
+  max-width: 400px; /* Maximum width for the container */
+}
+
+/* Light Theme Styles */
+body.light-theme {
+  background-color: #f0f0f0; /* Light background */
+  color: #333; /* Dark text */
+}
+
+.container.light-theme {
+  background-color: #ffffff; /* Light container */
+}
+
+/* Other styles remain the same */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  max-width: 400px; /* Maximum width for the container */
+  position: relative; /* For absolute positioning of the button */
+}
+
+#themeToggle {
+  position: absolute; /* Position it absolutely */
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Align to the right */
+  background-color: #1e1e1e; /* Match the dark theme */
+  color: #e0e0e0; /* Light text color */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#themeToggle:hover {
+  background-color: #424242; /* Lighter background on hover */
+}

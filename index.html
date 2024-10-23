@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Image Generator</h1>
+    
+    <label for="fileInput">Enter a description to generate an image:</label>
+    <input type="text" id="descriptionInput" placeholder="e.g., Astronaut riding a horse">
+    
+    <button id="btn">Generate Image</button>
+    <button id="themeToggle">Toggle Theme</button>
+    
+    <div id="image-container">
+        <img id="loading" src="loading.gif" alt="Loading..." style="display:none;"> <!-- Loading image -->
+        <img id="image" src="" alt="Generated Image" style="display:none;">
+        <a id="downloadBtn" href="#" download="generated-image.png" style="display:none;">Download Image</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
